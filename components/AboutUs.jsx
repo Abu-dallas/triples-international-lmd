@@ -6,16 +6,16 @@ function AboutUs() {
       <div className=" p-4 border py-12  rounded-3xl shadow">
         <p className="text-slate-100 text-2xl font-bold">About Us</p>
         <p className="mt-5 text-lg text-slate-100">
-          Caliphate Aviation Handling Services Limited, established in 2021, is
-          a prominent aviation service provider and consultancy based in
-          Nigeria. The company operates a state-of-the-art training center
-          offering a diverse range of aviation and management courses, catering
-          to both aspiring and seasoned professionals. With a team of certified
-          experts, Caliphate Aviation delivers unbiased services across the
-          global aviation market, including access to a wide selection of
-          aircraft.Their commitment to safety, security, and adherence to
-          international best practices has positioned them as a preferred choice
-          for aviation support services in the region.
+          Triples International Limited, established in 2018, is a leading
+          fruits and vegetable export company based in Nigeria. Specializing in
+          the sourcing, packaging, and export of fresh, high-quality produce,
+          the company connects Nigerian farmers to global markets across Europe,
+          the Middle East, and North America. With a commitment to international
+          standards, Triples International ensures that all products are handled
+          with care and meet stringent quality requirements. Backed by a
+          dedicated team and strategic partnerships, the company has earned a
+          reputation for reliability, sustainability, and promoting agricultural
+          growth within local communities.
         </p>
       </div>
     </div>

@@ -7,6 +7,7 @@ import StatsSection from "@/components/Stats";
 import Gallary from "@/components/Gallary";
 import Partners from "@/components/Partners";
 import Link from "next/link";
+import Table from "@/components/Table";
 
 export default function Home() {
   const [isScroll, setisScroll] = useState(false);
@@ -32,7 +33,7 @@ export default function Home() {
       <nav
         className={`${
           isScroll
-            ? "sticky top-0 bg-slate-950 w-full z-10 p-6"
+            ? "sticky top-0 bg-black w-full z-10 p-6"
             : "sticky top-0 w-full z-10 p-4"
         }`}
       >
@@ -46,7 +47,7 @@ export default function Home() {
           />
           <Image
             onClick={() => setisOpen(true)}
-            src="/vercel.svg"
+            src="/menu.png"
             alt="caliphate aviation logo"
             width={2000}
             height={2000}
@@ -65,9 +66,9 @@ export default function Home() {
           width={100}
           className="w-full object-cover h-[95vh]"
         >
-          <source src="/triples/treesbg.mp4" type="video/mp4" />
+          <source src="/triples/bg.mp4" type="video/mp4" />
         </video>
-        <div className="bg-black/70 w-full h-full absolute top-0">
+        <div className="bg-black/80 w-full h-full absolute top-0">
           <div
             className={`${
               isOpen &&
@@ -77,7 +78,7 @@ export default function Home() {
             <div
               className={` transition-all delay-300 text-slate-200 ${
                 isOpen
-                  ? "w-[80%] h-screen fixed z-20 top-0 right-0 bg-slate-950 md:hidden"
+                  ? "w-[80%] h-screen fixed z-20 top-0 right-0 bg-black md:hidden"
                   : "w-full h-screen fixed z-20 top-0 right-0 translate-x-full bg-slate-950 md:hidden"
               }`}
             >
@@ -123,16 +124,17 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center px-4 h-full text-slate-50">
+          <div className="flex items-center justify-center px-4 h-full text-slate-50 w-full">
             <div className="pt-14">
-              <p className="text-3xl text-slate-50 font-extrabold">
-                Welcome to <br />
-                <span className="text-indigo-400 pt-8">
+              <div className="text-3xl text-slate-50 font-extrabold w-full">
+                Welcome to the
+                <br />
+                <p className="text-indigo-400 min-w-[350px] pt-3">
                   <Typewriter
                     words={[
                       "Triples International Limited",
-                      "Fruits and Vegetables Export",
-                      "Best Quality Vegetables",
+                      "Fruits and Vegetables Exportation company for worldwide",
+                      "Best Quality Vegetables & Fruits",
                     ]}
                     loop={0}
                     cursor
@@ -141,15 +143,12 @@ export default function Home() {
                     deleteSpeed={80}
                     delaySpeed={2000}
                   />
-                </span>
-              </p>
-              <p className="text-lg text-slate-200 font-semibold mt-10 md:w-[80%]">
-                We provide fresh, quality meals for flight crews and passengers,
-                ensuring a delicious experience at every altitude.
-              </p>
+                </p>
+              </div>
+
               <button
                 type="button"
-                className="text-center p-3 w-52 rounded-3xl bg-indigo-400 hover:bg-indigo-500 mt-8"
+                className="text-center p-3 w-52 rounded-xl border-2 border-indigo-500 hover:bg-indigo-500 mt-20"
               >
                 Contact Us
               </button>
@@ -161,11 +160,10 @@ export default function Home() {
       {/* About Us Section */}
 
       <AboutUs />
-
       <StatsSection />
-
       <Partners />
       <Gallary />
+      <Table />
     </div>
   );
 }

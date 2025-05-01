@@ -16,7 +16,7 @@ function Partners() {
           />
         </div>
       </div>
-      <div className="scroll-left w-full flex items-center gap-12 bg-black py-6">
+      <div className="scroll-left w-full max-sm:w-[1400px]  flex items-center bg-black gap-12  py-6">
         {countries.map((country, index) => (
           <Image
             key={index}

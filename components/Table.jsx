@@ -36,7 +36,7 @@ function Table() {
                 <td className="pb-2 pl-3 rounded-r-lg">
                   <Image
                     src={fruit.image}
-                    alt="triples fuits list"
+                    alt="tripples fuits list"
                     width={2000}
                     height={2000}
                     className="h-10 w-10 rounded-full mt-2"

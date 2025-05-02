@@ -8,7 +8,7 @@ function Gallary() {
       <p className="text-indigo-400 text-2xl font-semibold px-3 mb-4">
         We export variety of products to many countries in the world
       </p>
-      <p className="text-slate-100 px-3 text-md mb-35">
+      <p className="text-slate-100 px-3 text-md mb-35 lg:w-[60%]">
         We export a wide range of fresh and high-quality agricultural products
         including fruits, vegetables, and other farm produce to numerous
         countries across the globe. Our export destinations span multiple
@@ -25,7 +25,7 @@ function Gallary() {
           <div key={index} className="max-md:w-full">
             <Image
               src={product.image}
-              alt="triples images"
+              alt="tripples images"
               width={2000}
               height={2000}
               className="rounded-xl h-80 w-full"

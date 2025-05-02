@@ -5,8 +5,8 @@ function AboutUs() {
     <div className="w-full bg-black p-1 flex items-center justify-center">
       <div className=" p-4 border py-12  rounded-3xl shadow">
         <p className="text-slate-100 text-2xl font-bold">About Us</p>
-        <p className="mt-5 text-lg text-slate-100">
-          Triples International Limited, established in 2018, is a leading
+        <p className="mt-5 text-lg text-slate-100 lg:w-[60%]">
+          Tripple 's' International Limited, established in 2018, is a leading
           fruits and vegetable export company based in Nigeria. Specializing in
           the sourcing, packaging, and export of fresh, high-quality produce,
           the company connects Nigerian farmers to global markets across Europe,

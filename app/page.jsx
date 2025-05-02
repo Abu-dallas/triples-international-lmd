@@ -8,6 +8,9 @@ import Gallary from "@/components/Gallary";
 import Partners from "@/components/Partners";
 import Link from "next/link";
 import Table from "@/components/Table";
+import FeatureProducts from "@/components/FeatureProducts";
+import ContactInfo from "@/components/ContactInfo";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [isScroll, setisScroll] = useState(false);
@@ -68,7 +71,7 @@ export default function Home() {
         >
           <source src="/triples/bg.mp4" type="video/mp4" />
         </video>
-        <div className="bg-black/80 w-full h-full absolute top-0">
+        <div className="bg-black/65 w-full h-full absolute top-0">
           <div
             className={`${
               isOpen &&
@@ -93,7 +96,7 @@ export default function Home() {
                 </button>
               </p>
               <p className="text-center text-lg font-bold text-slate-200 pb-12 border-b-2">
-                Triples International LTD
+                Tripple 's' International LTD
               </p>
               <div className="py-4 flex flex-col gap-3">
                 <Link
@@ -132,7 +135,7 @@ export default function Home() {
                 <p className="text-indigo-400 min-w-[350px] pt-3">
                   <Typewriter
                     words={[
-                      "Triples International Limited",
+                      "Tripple 's' International Limited",
                       "Fruits and Vegetables Exportation company for worldwide",
                       "Best Quality Vegetables & Fruits",
                     ]}
@@ -164,6 +167,9 @@ export default function Home() {
       <Partners />
       <Gallary />
       <Table />
+      <FeatureProducts />
+      <ContactInfo />
+      <Footer />
     </div>
   );
 }

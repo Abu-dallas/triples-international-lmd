@@ -1,3 +1,4 @@
+import { Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 
 function ContactInfo() {
@@ -10,13 +11,7 @@ function ContactInfo() {
 
         <p className="flex gap-4 items-center mt-5">
           <span className="p-2 bg-slate-800/35 rounded-full">
-            <Image
-              src="/menu.png"
-              alt="tripples"
-              width={2000}
-              height={2000}
-              className="w-5 rounded-sm h-5"
-            />
+            <Phone className="text-slate-200 w-6 h-6" />
           </span>
 
           <a className="text-md text-slate-200 " href="tel:2348030420079">
@@ -25,13 +20,7 @@ function ContactInfo() {
         </p>
         <p className="flex gap-4 items-center">
           <span className="p-2 bg-slate-800/35 rounded-full">
-            <Image
-              src="/menu.png"
-              alt="tripples"
-              width={2000}
-              height={2000}
-              className="w-5 rounded-sm h-5"
-            />
+            <Mail className="text-slate-200 w-6 h-6" />
           </span>
           <a
             className="text-md text-slate-200 "
@@ -42,13 +31,7 @@ function ContactInfo() {
         </p>
         <p className="flex gap-4 ">
           <span className="p-2 bg-slate-800/35 rounded-full w-15 h-10 lg:w-9">
-            <Image
-              src="/menu.png"
-              alt="tripples"
-              width={2000}
-              height={2000}
-              className="w-5 rounded-sm h-5"
-            />
+            <MapPin className="text-slate-200 w-6 h-6" />
           </span>
           <span className="text-md text-slate-200 ">
             Eastly Park Plaza, Plot No. 5 Bathurst Street, Of Aminu Kano

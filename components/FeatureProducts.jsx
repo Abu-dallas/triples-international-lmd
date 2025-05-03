@@ -28,11 +28,10 @@ function FeatureProducts() {
             alt="tripples"
             width={2000}
             height={2000}
-            className="w-full rounded-sm h-[400px]"
+            className="w-full rounded-sm h-[300px]"
           />
         ))}
       </div>
-      <div className="w-[200px] h-[500px] bg-indigo-500/30 blur-[120px] absolute right-12 transform -skew-x-32 top-12"></div>
     </div>
   );
 }

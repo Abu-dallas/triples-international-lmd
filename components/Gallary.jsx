@@ -4,11 +4,11 @@ import React from "react";
 
 function Gallary() {
   return (
-    <div className="bg-black w-full overflow-hidden px-1 pt-24 py-12">
+    <div className="bg-black w-full lg:flex lg:items-center lg:justify-center lg:flex-col overflow-hidden px-1 pt-24 py-12">
       <p className="text-indigo-400 text-2xl font-semibold px-3 mb-4">
         We export variety of products to many countries in the world
       </p>
-      <p className="text-slate-100 px-3 text-md mb-35 lg:w-[60%]">
+      <p className="text-slate-100 px-3 text-md mb-35 lg:w-[70%]">
         We export a wide range of fresh and high-quality agricultural products
         including fruits, vegetables, and other farm produce to numerous
         countries across the globe. Our export destinations span multiple
@@ -20,7 +20,7 @@ function Gallary() {
         making us a trusted name in the international agricultural export
         market.
       </p>
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 lg:w-[70%]  md:grid-cols-2 lg:grid-cols-3">
         {Products.map((product, index) => (
           <div key={index} className="max-md:w-full">
             <Image

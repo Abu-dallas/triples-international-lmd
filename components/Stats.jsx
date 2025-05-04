@@ -47,22 +47,24 @@ const Counter = ({ target, duration }) => {
 
 const StatsSection = () => {
   return (
-    <div className="grid p-4 grid-cols-2 md:grid-cols-3  w-full bg-black gap-6 text-center py-18">
-      <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
-        <h2 className="text-2xl text-slate-50">Countries</h2>
-        <Counter target={35} duration={3000} />
-      </div>
-      <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
-        <h2 className="text-2xl text-slate-50">Customers</h2>
-        <Counter target={100} duration={3000} />
-      </div>
-      <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
-        <h2 className="text-2xl text-slate-50">Products</h2>
-        <Counter target={50} duration={3000} />
-      </div>
-      <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
-        <h2 className="text-2xl text-slate-50">Delivery</h2>
-        <Counter target={1700} duration={3000} />
+    <div className=" w-full bg-black lg:flex lg:items-center lg:justify-center text-center py-18">
+      <div className="lg:w-[70%] grid p-4 grid-cols-2 md:grid-cols-3 lg:items-center lg:justify-center gap-6">
+        <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
+          <h2 className="text-2xl text-slate-50">Countries</h2>
+          <Counter target={35} duration={3000} />
+        </div>
+        <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
+          <h2 className="text-2xl text-slate-50">Customers</h2>
+          <Counter target={100} duration={3000} />
+        </div>
+        <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
+          <h2 className="text-2xl text-slate-50">Products</h2>
+          <Counter target={50} duration={3000} />
+        </div>
+        <div className="p-6 bg-black/95 border border-slate-800 rounded-3xl">
+          <h2 className="text-2xl text-slate-50">Delivery</h2>
+          <Counter target={1700} duration={3000} />
+        </div>
       </div>
     </div>
   );

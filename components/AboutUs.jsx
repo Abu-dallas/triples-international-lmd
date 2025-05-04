@@ -3,9 +3,9 @@ import React from "react";
 function AboutUs() {
   return (
     <div className="w-full bg-black p-1 flex items-center justify-center">
-      <div className=" p-4 border py-12  rounded-3xl shadow">
+      <div className=" p-4 border py-12 lg:w-[70%] rounded-3xl shadow">
         <p className="text-slate-100 text-2xl font-bold">About Us</p>
-        <p className="mt-5 text-lg text-slate-100 lg:w-[60%]">
+        <p className="mt-5 text-lg text-slate-100 lg:w-[90%]">
           Tripple 's' International Limited, established in 2018, is a leading
           fruits and vegetable export company based in Nigeria. Specializing in
           the sourcing, packaging, and export of fresh, high-quality produce,

@@ -12,46 +12,50 @@ function Products() {
       <NavBar setisOpen={setisOpen} />
 
       <SideBar isOpen={isOpen} setisOpen={setisOpen} />
-      <div className="py-6 bg-black">
-        <p className="text-3xl text-indigo-500 font-bold mt-12 px-3">
-          What Tripple 'S' Exports
-        </p>
-        <p className="text-slate-200 lg:w-[70%] p-3 ">
-          Tripple 'S' Exports is a proudly Nigerian company committed to
-          supplying high-quality agricultural products to the global market. We
-          specialize in the export of a wide range of farm produce including
-          tropical fruits, vegetables, spices, and tubers that are cultivated in
-          the rich, fertile soils of Nigeria. Our product range includes ginger,
-          garlic, sesame seeds, peanuts, yams, sweet potatoes, sorrel (karkade),
-          chili, habanero pepper, and more. These products are grown under
-          natural conditions, harvested with care, and processed to meet
-          international standards. With a focus on quality, consistency, and
-          sustainability, we work closely with local farmers and cooperatives to
-          ensure fair practices and premium output. Our mission is to showcase
-          the richness of Nigerian agriculture to the world by delivering
-          nutritious, fresh, and authentic products that meet the needs of
-          consumers and industries across continents. At Tripple 'S' Exports, we
-          believe in building long-term business relationships grounded in
-          trust, excellence, and value.
-        </p>
-        <div className="grid grid-cols-1 lg:gap-3 gap-12 lg:space-y-25 px-1 md:grid-cols-2 lg:grid-cols-4 mt-20">
-          {ProductsImages.map((product, index) => (
-            <div key={index} className="max-md:w-full">
-              <Image
-                src={product.image}
-                alt="tripples images"
-                width={2000}
-                height={2000}
-                className="rounded-xl h-80 w-full"
-              />
-              <p className="text-lg font-bold mt-2 text-indigo-400 p-2">
-                {product.title}
-              </p>
-              <p className="text-md text-slate-200 p-2">{product.desc}</p>
-            </div>
-          ))}
+      <div className="w-full bg-black lg:flex lg:items-center lg:justify-center">
+        <div className="py-6 bg-black lg:w-[80%]">
+          <p className="text-3xl text-indigo-500 font-bold mt-12 px-3">
+            What Tripple 'S' Exports
+          </p>
+          <p className="text-slate-200 lg:w-[80%] p-3 ">
+            Tripple 'S' Exports is a proudly Nigerian company committed to
+            supplying high-quality agricultural products to the global market.
+            We specialize in the export of a wide range of farm produce
+            including tropical fruits, vegetables, spices, and tubers that are
+            cultivated in the rich, fertile soils of Nigeria. Our product range
+            includes ginger, garlic, sesame seeds, peanuts, yams, sweet
+            potatoes, sorrel (karkade), chili, habanero pepper, and more. These
+            products are grown under natural conditions, harvested with care,
+            and processed to meet international standards. With a focus on
+            quality, consistency, and sustainability, we work closely with local
+            farmers and cooperatives to ensure fair practices and premium
+            output. Our mission is to showcase the richness of Nigerian
+            agriculture to the world by delivering nutritious, fresh, and
+            authentic products that meet the needs of consumers and industries
+            across continents. At Tripple 'S' Exports, we believe in building
+            long-term business relationships grounded in trust, excellence, and
+            value.
+          </p>
+          <div className="grid grid-cols-1 lg:gap-3 gap-12 lg:space-y-25 px-1 md:grid-cols-2 lg:grid-cols-3 mt-20">
+            {ProductsImages.map((product, index) => (
+              <div key={index} className="max-md:w-full">
+                <Image
+                  src={product.image}
+                  alt="tripples images"
+                  width={2000}
+                  height={2000}
+                  className="rounded-xl h-80 w-full"
+                />
+                <p className="text-lg font-bold mt-2 text-indigo-400 p-2">
+                  {product.title}
+                </p>
+                <p className="text-md text-slate-200 p-2">{product.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
+
       <div className="bg-white w-full mt-50">
         <Footer />
       </div>

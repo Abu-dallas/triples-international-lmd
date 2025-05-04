@@ -4,7 +4,7 @@ import Image from "next/image";
 function ContactInfo() {
   return (
     <div className="w-full bg-black py-8">
-      <div className="py-6 w-full px-4 bg-black flex flex-col  gap-2">
+      <div className="py-6 w-full px-4 bg-black flex flex-col lg:pl-50  gap-2">
         <p className="text-2xl text-indigo-500 font-bold pt-8">
           Contact Us Now
         </p>

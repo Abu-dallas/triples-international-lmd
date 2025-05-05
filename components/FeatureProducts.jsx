@@ -4,16 +4,32 @@ import React from "react";
 function FeatureProducts() {
   return (
     <div className="w-full lg:flex lg:items-center lg:justify-center lg:flex-col bg-black relative overflow-x-hidden">
-      <div className="py-8 px-4 w-full h-[912px] max-sm:h-[560px] lg:w-[70%] flex items-center justify-center bg-black mb-18 pt-32">
+      <div className="py-8 px-4 w-full h-[912px] max-sm:h-[560px] lg:w-[70%] flex items-center justify-center bg-black pt-20">
         <Image
-          src="/triples/tamarin1.jpg"
+          src="/triples/localmarket14.jpg"
           alt="tripples feature image"
           width={2000}
           height={2000}
           className="w-[50%] h-[380px] self-start rounded-lg max-sm:h-[250px]"
         />
         <Image
-          src="/triples/tomato1.jpg"
+          src="/triples/localmarket16.jpg"
+          alt="tripples feature image"
+          width={2000}
+          height={2000}
+          className="w-[50%] h-[380px] self-end rounded-lg max-sm:h-[250px]"
+        />
+      </div>
+      <div className="py-8 px-4 w-full h-[912px] max-sm:h-[560px] lg:w-[70%] flex items-center justify-center bg-black mb-18 pt-20">
+        <Image
+          src="/triples/localmarket12.jpg"
+          alt="tripples feature image"
+          width={2000}
+          height={2000}
+          className="w-[50%] h-[380px] self-start rounded-lg max-sm:h-[250px]"
+        />
+        <Image
+          src="/triples/localmarket13.jpg"
           alt="tripples feature image"
           width={2000}
           height={2000}
@@ -47,4 +63,6 @@ const images = [
   "/triples/apple1.jpg",
   "/triples/orange2.jpg",
   "/triples/sugercane2.jpg",
+  "/triples/tomato1.jpg",
+  "/triples/tamarin1.jpg",
 ];

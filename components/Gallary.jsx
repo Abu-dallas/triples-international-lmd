@@ -55,31 +55,31 @@ const Products = [
   {
     title: "Pineapple",
     image: "/triples/pineapple1.jpg",
-    desc: "The pineapple (Ananas comosus) is a tropical plant with edible multiple fruit consisting of coalesced berries. Raw pineapple is an excellent of source of manganese and vitamin C . They can be consumed fresh, cooked, juiced, and preserved, and are found in a wide array of cuisines. ",
+    desc: "The pineapple is a tropical fruit known for its sweet and tangy flavor, widely enjoyed both fresh and processed. Rich in vitamins, especially vitamin C, it is consumed as juice, canned fruit, and in fruit salads. The core and skin are used in some traditional remedies and in animal feed. Pineapple is also used in the preparation of jams, sauces, and desserts. Its enzymes are known for aiding digestion and tenderizing meat. It grows abundantly in tropical climates and is an important crop in Nigeria’s agricultural exports.",
   },
   {
     title: "Coconut",
     image: "/triples/coconut1.jpg",
-    desc: "The coconut is known for its great versatility as seen in the many uses of its different parts and found throughout the tropics and subtopics. Coconuts are part of the daily diets of many people. The various parts of the coconut have a number of culinary uses. The seed provides oil for frying, cooking, and making margarine. The white, fleshy part of the seed, the coconut meat, is used fresh or dried in cooking, especially in confections and desserts such as macaroons. Desiccated coconut or coconut milk made from it is frequently added to curries and other savory dishes. Coconut flour has also been developed for use in baking, to combat malnutrition ",
+    desc: "The coconut is known for its great versatility as seen in the many uses of its different parts and found throughout the tropics and subtropics. Coconuts are part of the daily diets of many people. The various parts of the coconut have a number of culinary uses. The seed provides oil for frying, cooking, and making margarine. The white, fleshy part of the seed, the coconut meat, is used fresh or dried in cooking, especially in confections and desserts such as macaroons. Desiccated coconut or coconut milk made from it is frequently added to curries and other savory dishes. Coconut flour has also been developed for use in baking, to combat malnutrition.",
   },
   {
     title: "Chili",
     image: "/triples/chili1.jpg",
-    desc: "The chili pepper also called chilli pepper, is the fruit of plants from the genus Capsicum. Despite its hot taste, it contain large amounts of vitamin C and small amounts of carotene (provitamin A). It is an important part of many cuisines and curries especially in India. ",
+    desc: "Chili peppers are widely used to add heat and flavor to a variety of dishes, both fresh and dried. They are rich in capsaicin, which has health benefits including pain relief and boosting metabolism. Chilies are used in sauces, soups, marinades, and spice blends. They can be processed into powder, flakes, or pastes. In Nigeria, chilies are an essential part of the cuisine and a significant export crop due to their demand in international markets.",
   },
   {
     title: "Yam",
     image: "/triples/yam1.jpg",
-    desc: "Yam, a tropical crop in the genus Dioscorea, has as many as 600 species out of which six are economically important staple species. Nigeria is by far the world’s largest producer of yams, accounting for over 70–76 percent of the world production. Yam is in the class of roots and tubers that is a staple of the Nigerian and West African diet. It is a good source of cartbohydrates and dietary fiber.",
+    desc: "Yam is a staple tuber crop widely cultivated and consumed across Nigeria and West Africa. It is known for its starchy texture and nutritional content, including complex carbohydrates, fiber, and minerals. Yams can be boiled, roasted, fried, or pounded into a popular dish called “pounded yam.” Dried yam flour is also processed for ease of export and preparation. Nigeria is the world’s largest producer of yam, making it a vital export commodity.",
   },
   {
     title: "Sugercane",
     image: "/triples/sugercane1.jpg",
-    desc: "Sugarcane belongs to the grass family (Poaceae) and used for sugar production. It has stout jointed fibrous stalks that are rich in sugar, and measure two to six metres (6 to 19 feet) tall. It is grown extensively in Africa and is native to the warm temperate to tropical regions of South Asia,",
+    desc: "Sugarcane is a tall tropical plant grown widely for its sweet juice, which is processed into raw and refined sugar. In addition to table sugar, it is used to produce ethanol, molasses, and rum. The fiber (bagasse) left after juice extraction is used for paper and fuel. Sugarcane juice is also consumed fresh and is valued for its energizing and hydrating properties. Nigeria’s warm climate supports robust sugarcane growth, contributing to agro-industrial development and export.",
   },
   {
     title: "Peanut",
     image: "/triples/peanut2.jpg",
-    desc: "Sugarcane belongs to the grass family (Poaceae) and used for sugar production. It has stout jointed fibrous stalks that are rich in sugar, and measure two to six metres (6 to 19 feet) tall. It is grown extensively in Africa and is native to the warm temperate to tropical regions of South Asia,",
+    desc: "Peanuts, also known as groundnuts, are legumes rich in protein, healthy fats, and essential nutrients. They are consumed raw, roasted, or processed into peanut butter, oil, and confectionery products. Peanuts are also used in sauces and stews in many African cuisines. Nigeria is one of Africa’s top producers of peanuts, which are increasingly exported for their nutritional and economic value.",
   },
 ];

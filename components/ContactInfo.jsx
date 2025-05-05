@@ -8,14 +8,31 @@ function ContactInfo() {
         <p className="text-2xl text-indigo-500 font-bold pt-8">
           Contact Us Now
         </p>
-
         <p className="flex gap-4 items-center mt-5">
           <span className="p-2 bg-slate-800/35 rounded-full">
             <Phone className="text-slate-200 w-6 h-6" />
           </span>
 
-          <a className="text-md text-slate-200 " href="tel:2348030420079">
-            +234 8022222222
+          <a className="text-md text-slate-200 " href="tel:2347083046011">
+            +234 7083046011
+          </a>
+        </p>
+        <p className="flex gap-4 items-center mt-1">
+          <span className="p-2 bg-slate-800/35 rounded-full">
+            <Phone className="text-slate-200 w-6 h-6" />
+          </span>
+
+          <a className="text-md text-slate-200 " href="tel:2348136783030">
+            +234 8136783030
+          </a>
+        </p>
+        <p className="flex gap-4 items-center mt-1">
+          <span className="p-2 bg-slate-800/35 rounded-full">
+            <Phone className="text-slate-200 w-6 h-6" />
+          </span>
+
+          <a className="text-md text-slate-200 " href="tel:2348065463076">
+            +234 8065463076
           </a>
         </p>
         <p className="flex gap-4 items-center">

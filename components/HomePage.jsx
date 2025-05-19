@@ -63,7 +63,7 @@ export default function HomePage() {
               <div className="text-3xl text-slate-50 font-extrabold w-full">
                 Tripples 'S' International limited
                 <br />
-                <p className="text-indigo-400 min-w-[350px] text-[1.5rem] pt-3">
+                <p className="text-indigo-400 min-w-[350px] text-[1.5rem] pt-3 mb-8">
                   <Typewriter
                     words={["Best Quality Vegetables & Fruits from Nigeria"]}
                     loop={1}
@@ -75,7 +75,7 @@ export default function HomePage() {
               <Link
                 href="/contacts"
                 type="button"
-                className="text-center p-2 w-52 rounded-xl border-2 border-indigo-500 hover:bg-indigo-500 mt-20"
+                className="text-center p-2 px-4 w-52 rounded-xl border-2 border-indigo-500 hover:bg-indigo-500 mt-20"
               >
                 Contact Us
               </Link>

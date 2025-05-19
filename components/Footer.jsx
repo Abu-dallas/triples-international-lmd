@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Twitter } from "lucide-react";
+import { Instagram, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import Image from "next/image";
 
 function Footer() {
@@ -71,13 +71,7 @@ function Footer() {
           height={2000}
           className="w-8 rounded-sm h-8"
         />
-        <Image
-          src="/triples/instagram.png"
-          alt="tripples"
-          width={2000}
-          height={2000}
-          className="w-9 rounded-sm h-9"
-        />
+        <Instagram className="w-8 text-yellow-800 rounded-sm h-8" />
         <Twitter className="w-8 text-blue-800 rounded-sm h-8" />
         <Image
           src="/triples/whatsapp.png"

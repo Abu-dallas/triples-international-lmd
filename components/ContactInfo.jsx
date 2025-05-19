@@ -58,7 +58,7 @@ function ContactInfo() {
       </div>
       <div className="w-full h-[500px] md:h-[600px] px-1 mt-8 mb-50">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.829581380961!2d7.459215173753195!3d9.079284988202387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ae7c628885d%3A0x4ec4810158046ef0!2sEastly%20shopping%20plaza!5e0!3m2!1sen!2sng!4v1746200398607!5m2!1sen!2sng"
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62447.20805368358!2d8.49894244511581!3d11.977926857571566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shassan%20gwarzo%20street%20gandun%20albasa!5e0!3m2!1sen!2sng!4v1747684539592!5m2!1sen!2sng"
           width="100%"
           height="100%"
           allowFullScreen=""
